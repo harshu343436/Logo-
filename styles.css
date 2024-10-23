@@ -1,0 +1,80 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Container Styling */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+/* Color Boxes */
+.color-box {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 100%;
+}
+
+.muted {
+    background-color: #cfcfcf;
+}
+
+.vibrant {
+    background: linear-gradient(190deg, teal, blue);
+}
+
+/* Typography Styles */
+.typography {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.serif {
+    font-family: "Times New Roman", serif;
+}
+
+.sans-serif {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+}
+
+/* Symbol Styles */
+.symbol {
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Image Comparison Styling */
+.image-comparison {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.logo-img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
